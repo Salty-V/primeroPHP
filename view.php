@@ -25,6 +25,13 @@
             <td><?php echo $order['date'];?></td>
         </tr>
         <?php endforeach; ?>
+
+
+        <!-- Valeur primaire / Valeurs composites (plusieurs données à l'intérieur) 
+        Correction : boucle dans la boucle  (comme lorsqu'on mappait sur React) 
+        Lorsque je fais New (ex New DateTime) je fais appel au constructeur 
+        J'utilise une méthode de l'instance de classe que j'ai créé -->
+
     </table>
     
 </body>
